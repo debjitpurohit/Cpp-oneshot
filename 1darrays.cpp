@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main(){ // 1D array
     // int arr[]={1,3,6}; //[3] can be mention otherwise not required
 // arry index = 0,1,2
 
     // cout<<arr[1];//arry index start with 0 1 2 3
 
-    int marks[6];
+    int marks[6]; //6 student 
 
     for (int i=0;i<6;i++){
         cout<<"enter the martrks of "<<i<<" th student"<<endl;
